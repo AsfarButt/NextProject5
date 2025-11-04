@@ -8,9 +8,9 @@ export default function Logo(){
   const nike3 = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-        setTimeout(() => {nike1.current?.classList.remove("translate-y-40","-translate-x-20","opacity-0");},20);
-        setTimeout(() => {nike2.current?.classList.remove("translate-y-60","-translate-x-20","opacity-0");},150);
-        setTimeout(() => {nike3.current?.classList.remove("translate-y-60","-translate-x-20","opacity-0");},300);
+        setTimeout(() => {nike1.current?.classList.remove("translate-y-40","-translate-x-20","opacity-0");},120);
+        setTimeout(() => {nike2.current?.classList.remove("translate-y-60","-translate-x-20","opacity-0");},250);
+        setTimeout(() => {nike3.current?.classList.remove("translate-y-60","-translate-x-20","opacity-0");},400);
   },[])
 
     return(<div className="relative w-full h-full scale-x-110">
