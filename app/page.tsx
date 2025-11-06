@@ -3,6 +3,7 @@ import MainHeader from "./mainheader";
 import LeftText from "./lefttext";
 import BuyNow from "./buynow";
 import MainObject from "./mainobject";
+import ArtificialScrollar from "./artificialscrollar";
 
 
 export default function Page(){         //At the end of program change this layout to relative and flex type objects instead of this absolute bullsiht
@@ -31,6 +32,10 @@ export default function Page(){         //At the end of program change this layo
 
     <div className="absolute w-200 h-auto top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
       <MainObject />
+    </div>
+
+    <div className="absolute top-[50%] left-[50%] w-150 h-150 bg-pink-800/70 translate-x-[-50%] translate-y-[-50%]">
+      <ArtificialScrollar />
     </div>
 
 {/* At the end of program change this layout to relative and flex type objects instead of this absolute bullsiht */}
