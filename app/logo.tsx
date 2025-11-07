@@ -19,3 +19,7 @@ export default function Logo(){
         <div className="absolute left-25 top-38 w-200 h-120 mask-[url('/nikelogo.png')] scale-140 bg-black/40 mask-no-repeat bg-cover ease-out transition-all duration-800 translate-y-60 -translate-x-20 opacity-0 bg-center -rotate-5" ref={nike3}/>
     </div>)
 }
+
+
+
+//absolute w-[40%] max-w-120 h-10 top-12 left-[50%] translate-x-[-50%] rounded-full
